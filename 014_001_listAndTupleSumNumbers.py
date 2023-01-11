@@ -22,7 +22,10 @@ print("\nSum integers numbers is: " + str(sumNumbers))
 Write a program to get 6 number in the TUPLE and sum that number 
 """
 
-tupleNumber = (listNumber)
+tupleNumber = tuple(listNumber)
+
+print("\n This is a tuple: ", tupleNumber)
+print(type(tupleNumber))
 
 sumTupleNumbers = 0
 
