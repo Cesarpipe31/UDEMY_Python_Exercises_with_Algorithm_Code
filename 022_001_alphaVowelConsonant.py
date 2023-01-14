@@ -2,12 +2,12 @@
 Write A Python Program To Check Alpha Character, Whether Vowel Or Consonant
 """
 
-oneCharacter = char(input("Enter your character: "))
+char = (input("Enter your character: "))
 
-if (oneCharacter == "a" or oneCharacter == "e" or oneCharacter == "i" or oneCharacter == "o" or oneCharacter == "u"):
-    print("Character is vowel: " +oneCharacter)
+if (char == "a" or char == "e" or char == "i" or char == "o" or char == "u"):
+    print("Character is vowel: " +char)
 else:
-    print("Character is consonant: " +oneCharacter)
+    print("Character is consonant: " +char)
 
 
 
